@@ -3913,6 +3913,9 @@ span.hidelink
 }
 .topnav li ul { 
 	position: absolute;
+	padding: 0;
+	margin: 0;
+	list-style: none;
 	width: 200px;
 	top: -999em;
 	left: 0;
@@ -3937,7 +3940,6 @@ span.hidelink
 }
 .topnav li li a { 
 	display: block;
-	width: 180px;
 	margin: 0;
 	padding: 0 10px;
 	height: auto;
@@ -3953,6 +3955,7 @@ span.hidelink
 .topnav li:hover ul { 
 	left: 0;
 	top: 32px;
+	padding: 0;
 }
 .topnav li:hover ul ul, .topnav li:hover ul ul ul, .topnav li:hover ul ul ul ul { 
 	top: -999em;
